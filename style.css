@@ -4,9 +4,14 @@
     box-sizing: border-box;
     color: white;
 }
+@font-face {
+  font-family: 'gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+}
 html, body{
     height: 100%;
     width: 100%;
+    font-family: 'gilroy', Arial, sans-serif;
 }
 #page1{
     height: 100vh;
@@ -45,3 +50,53 @@ svg{
     
     
 }
+#pagebox2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+
+}
+
+#pagebox2 h4{
+
+    padding: 20px;
+    font-size: 1vw;
+    border: 1px solid rgb(145, 141, 141);
+    border-radius: 35px;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 10.4vw;
+    
+}
+#nav2{
+    display: flex;
+    gap: 3vw;
+    
+    
+    
+    
+}
+#navbottom{
+    position:absolute;
+    
+    width: 80%;
+    height:0;
+    top: 10%;
+    border-bottom: 1px solid #dadada;
+}
+
+nav:hover #navbottom{
+    height: 20%;
+    transition: height ease-in-out .65s ;
+}
+
