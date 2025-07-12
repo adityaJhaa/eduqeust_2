@@ -88,11 +88,17 @@ nav{
 }
 #navbottom{
     position:absolute;
+    padding-left:40px;
+    padding-right:40px;
     
-    width: 80%;
+    width: 70%;
     height:0;
     top: 10%;
     border-bottom: 1px solid #dadada;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
 }
 
 nav:hover #navbottom{
